@@ -17,8 +17,9 @@ public class JeniknsEx1Application {
 		logger.info("Application started");
 	}
 	public static void main(String[] args) {
-		logger.info("application executed");
+		logger.info("application main started");
 		SpringApplication.run(JeniknsEx1Application.class, args);
+		logger.info("application main executed");
 		
 		
 	}
